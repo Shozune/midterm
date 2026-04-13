@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import Container from 'react-bootstrap/Container';
+import Mass from './Mass';
 
-function App() {
-  const [count, setCount] = useState(0)
 
+export default function App() {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <Container className="mt-4">
+      <h2 className="text-center mb-4">Week 7 Laboratory Activity - Conversion</h2>
 
-export default App
+      <Mass />
+    </Container>
+  );
+}
